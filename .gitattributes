@@ -1,0 +1,18 @@
+# Standardmäßig alle Textdateien mit LF beenden
+* text=auto
+
+# Spezielle Behandlung für Windows-spezifische Skripte
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Java-Dateien mit LF
+*.java text eol=lf
+
+# Vermeide Zeilenendungs-Konvertierungen für Binärdateien
+*.jar binary
+*.png binary
+*.jpg binary
+*.gif binary
+# Füge weitere Binärdateien hinzu, falls erforderlich
+o/mvnw text eol=lf
+*.cmd text eol=crlf
